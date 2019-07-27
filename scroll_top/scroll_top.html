@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>上下滚动条</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 40px;
+            height: 80px;
+            background-color: orange;
+            position: fixed;
+            right: 0;
+            top: 550px;
+            display: none;
+            cursor: pointer;
+            text-align: center;
+            line-height: 80px;
+        }
+        #parent_box{
+            height: 2000px;
+            border: 2px solid orange;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent_box">
+        <div id="box">
+            Go
+        </div>
+    </div>
+    <script src="./scroll_top_face_to_object.js"></script>
+    <!-- <script src="./scroll_top_face_to_.js"></script> -->
+</body>
+</html>
