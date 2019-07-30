@@ -6,6 +6,6 @@
 ![返回顶部效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/top.png)
 # buner
 		 	——————轮播插件，面向对象和面向过程两种写法。
-![面向过程效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/buner_pro.png)
+![面向过程效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/buner_pro.png)  ![面向对象效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/buner_obj.png)
 			
-![面向对象效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/buner_obj.png)
+
