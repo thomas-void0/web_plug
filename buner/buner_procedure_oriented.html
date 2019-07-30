@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>原生js实现轮播</title>
+    <link rel="stylesheet" href="./css/buner_procedure.css">
+</head>
+<body>
+    <!-- 定义父级容器  -->
+    <div class="container">
+        <!-- 子级容器1存储图片 -->
+        <!-- 因为默认显示的是第一张图片，所以就设置当前的图片8往左边移动一张图片的宽度 -->
+        <div class="img_box" style="left: -600px"> 
+            <!-- 将最后一张图片隐藏 -->
+            <img src="./img/8.jpg" alt="1">
+            <img src="./img/1.jpg" alt="1">
+            <img src="./img/2.jpg" alt="2">
+            <img src="./img/3.jpg" alt="3">
+            <img src="./img/4.jpg" alt="4">
+            <img src="./img/5.jpg" alt="5">
+            <img src="./img/6.jpg" alt="6">
+            <img src="./img/7.jpg" alt="7">
+            <img src="./img/8.jpg" alt="8">
+            <img src="./img/1.jpg" alt="8">
+        </div>
+        <!-- 子级容器2存储菜单按钮 -->
+        <div class="button">
+            <span index="1" class="active"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+            <span index="4"></span>
+            <span index="5"></span>
+            <span index="6"></span>
+            <span index="7"></span>
+            <span index="8"></span>
+        </div>
+        <!-- a标签表示左右两个切换按钮 -->
+        <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+        <a href="javascript:;" id="next" class="arrow">&gt;</a>
+    </div>
+    <!-- <script src="./buner_procedure_oriented.js"></script> -->
+    <script src="./buner_procedure_oriented.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    padding: 20px;
+    .container{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        border: 3px solid #333;
+        overflow: hidden;
+        // 图片的盒子 
+        .img_box{
+            position: absolute;
+            z-index: 1;
+            width: 6000px;
+            height: 400px;
+            img{
+                float: left;
+                width: 600px;
+                height: 400px;
+            }
+        }
+        // 索引值按钮的盒子
+        .button{
+            position: absolute;
+            left: 250px;
+            bottom: 20px;
+            z-index: 2;
+            height: 10px;
+            width: 200px;
+            // 按钮 
+            span{
+                float: left;
+                margin-left: 5px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                background-color: #333;
+                cursor: pointer;                
+            }
+            // 被选中的状态 
+            .active{
+                background-color: orangered;
+            }
+        }
+        // 左右两边的小箭头
+        .arrow{
+            position: absolute;
+            top: 180px;
+            z-index: 2;
+            display: none;
+            width: 40px;
+            height: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 33px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+        .arrow:hover{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        // 左右两边的箭头
+        #prev{
+            left: 20px;
+            z-index: 999;
+        }
+        #next{
+            right: 20px;
+        }
+    }
+    .container:hover{
+        display: block;
+    }
+}
