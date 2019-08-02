@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    width: 150px;
+    /* height: 20px; */
+    /* border: 2px solid orange; */
+    text-align: center;
+}
+.container{
+    width: 150px;
+    margin:0 auto;
+    margin-top: 100px;
+    border: 2px solid orange;
+    border-top: 0;
+    border-bottom:0;
+}
+.container ul{
+    width: 100%;
+    height: 0;
+    border: 0;
+    overflow: hidden;
+}
+.container ul:last-child{
+    border-bottom: 2px solid orange;
+}
+.container p{
+    width: 170px;
+    cursor: pointer;
+    background-color: orange;
+    color: #ffffff;
+    padding-left: 10px;
+    border-bottom-right-radius: 0px;
+    border: 2px solid;
+}
