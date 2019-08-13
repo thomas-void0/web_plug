@@ -16,4 +16,7 @@
 		 	——————原生js请求接口数据
 ![返回顶部效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/http.png)
 			
+# 5，前端分页
+		 	——————前端分页，面向对象\面向过程
+![返回顶部效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/page.png)
 

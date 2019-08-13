@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    margin:0 auto;
+    margin-top: 30px;
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn ul{
+    width: 166px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    list-style: none;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    line-height: 30px;
+}
+table{
+    width: 700px;
+    margin:0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+table th{
+    width: 100px;
+}
+table th:nth-child(2){
+    width: 400px;
+}
+table tr{
+    height: 45px;
+}
