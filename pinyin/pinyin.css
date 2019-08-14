@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    border: 2px solid ;
+    margin: 0 auto;
+    margin-top:50px;
+    position: relative;
+}
+.box div:first-child{
+    width:270px;
+}
+h2{
+    text-align: center;
+}
+.box div input{
+    width: 200px;
+    height: 30px;
+}
+.box div button{
+    width: 205px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.displaybox input{
+    margin:20px 0 0 0; 
+}
+.center_box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -146px;
+    margin-top: -75px;
+}

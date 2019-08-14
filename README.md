@@ -20,3 +20,7 @@
 		 	——————前端分页，面向对象\面向过程
 ![返回顶部效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/page.png)
 
+# 6，汉字转拼音
+		 	——————汉字转拼音，面向对象
+![返回顶部效果图](https://github.com/lmxyjy/web_plug/blob/master/title_img/pinyin.png)
+
