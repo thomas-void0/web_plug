@@ -124,10 +124,8 @@ namespace MoveBox{
     }
 }
 
-//获取当前需要移动的盒子1
-const box = <HTMLDivElement>document.getElementById("target")
-const oMove = new MoveBox.Move(box);
+//获取当前需要移动的盒子
+Array.from(<NodeListOf<HTMLDivElement>>document.querySelectorAll(".drag")).forEach((item:HTMLDivElement)=>{
+    new MoveBox.Move(item);
+}) 
 
-//获取当前需要移动的盒子2
-const box2 = <HTMLDivElement>document.getElementById("target2")
-const oMove2 = new MoveBox.Move(box2);

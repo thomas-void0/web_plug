@@ -116,9 +116,7 @@ var MoveBox;
     }
     MoveBox.Move = Move;
 })(MoveBox || (MoveBox = {}));
-//获取当前需要移动的盒子1
-const box = document.getElementById("target");
-const oMove = new MoveBox.Move(box);
-//获取当前需要移动的盒子2
-const box2 = document.getElementById("target2");
-const oMove2 = new MoveBox.Move(box2);
+//获取当前需要移动的盒子
+Array.from(document.querySelectorAll(".drag")).forEach((item) => {
+    new MoveBox.Move(item);
+});
